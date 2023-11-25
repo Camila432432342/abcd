@@ -1,0 +1,195 @@
+/* Estilos generales */
+body {
+  margin: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #e1d5f3; /* Color de fondo */
+}
+
+header, footer {
+  background-color: #fdfdfd;
+  color:#000305 ;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+main {
+  padding: 20px;
+}
+
+/* Estilos para imágenes y texto */
+.image-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px; /* Margen general */
+}
+
+.image-box {
+  text-align: center;
+  padding: 20px; /* Espaciado interno */
+  position: relative;
+}
+
+.image-box img {
+  border: 10px solid #dcc9ee; /* Borde lila */
+  box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.3) inset, 0 0 20px rgb(191, 159, 227); /* Margen de estrellas */
+}
+
+.image-caption {
+  margin-top: 10px;
+  border-top: 2px solid #dfd5e8; /* Borde lila arriba del texto */
+  padding-top: 5px;
+  color: #243b51; /* Celeste para el texto */
+  animation: shake 0.8s ease-in-out infinite alternate; /* Animación en el texto */
+}
+
+@keyframes shake {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-5px); }
+}
+
+/* Estilos para las imágenes con animación */
+.image-box img {
+  border: 10px solid #debaff; /* Borde lila */
+  box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.3) inset, 0 0 20px rgb(165, 142, 191); /* Margen de estrellas */
+  transition: transform 0.3s ease-in-out; /* Transición para la animación */
+}
+
+/* Agregar la animación al pasar el ratón */
+.image-box img:hover {
+  transform: rotate(5deg); /* Rotación al pasar el ratón */
+}
+
+
+
+
+/* Estilos generales */
+body {
+  margin: 20px; /* Margen agregado */
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #061720; /* Color de fondo */
+}
+
+/* Margen al inicio del código */
+header {
+  margin-top: 20px;
+}
+
+/* Estilos para imágenes y texto */
+/* Agregar margen al texto */
+.image-caption {
+  margin-top: 20px;
+}
+
+/* Estilos para las imágenes con animación */
+/* Brillo en los bordes */
+.image-box img {
+  border: 10px solid #d1b4ed; /* Borde lila */
+  box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.3) inset, 0 0 20px rgb(165, 142, 191); /* Margen de estrellas */
+  transition: border-color 0.3s ease-in-out; /* Transición para el brillo */
+}
+
+/* Agregar brillo al pasar el ratón */
+.image-box img:hover {
+  border-color: #ffffff; /* Cambio de color al pasar el ratón */
+}
+
+
+
+/* Estilos generales */
+body {
+  margin: 20px 0 0 20px; /* Margen agregado al inicio */
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+
+  background-color:#8EAEDF ; /* Color de fondo */
+}
+
+/* Estilos para imágenes y texto */
+.image-caption {
+  border: 2px solid #9499de; /* Agregar borde */
+  padding: 5px; /* Espaciado interno */
+  margin-top: 10px; /* Margen superior */
+}
+
+/* Estilos para las imágenes con animación */
+.image-box img {
+  border: 10px solid #8EAEDF; /* Borde lila */
+  box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.3) inset, 0 0 20px rgb(191, 171, 214); /* Margen de estrellas */
+  transition: border-color 0.3s ease-in-out; /* Transición para el brillo */
+}
+
+/* Agregar brillo al pasar el ratón */
+.image-box img:hover {
+  border-color: #ffffff; /* Cambio de color al pasar el ratón */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

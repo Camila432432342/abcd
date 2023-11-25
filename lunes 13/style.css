@@ -1,0 +1,263 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #110202;
+    background: #ebe3e3;
+    font-size: 1em;
+    line-height: 1.5em;
+    padding-top: 80px; /* Relleno superior igual a la altura de la cabecera */
+}
+
+/* Estilos para encabezados */
+h1 {
+    font-size: 2.3em;
+    line-height: 1.3em;
+    margin: 15px 0;
+    text-align: center;
+    font-weight: 300;
+}
+
+/* Estilos para párrafos */
+p {
+    margin: 0 1.5em 0;
+}
+
+/* Estilos para imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para la cabecera */
+#main-header {
+    background: #decdde;
+    color: white;
+    height: 80px;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+    z-index: 9999; /* Asegura que la cabecera esté encima de otros elementos */
+}
+
+#main-header a {
+    color: white;
+}
+
+/* Estilos para el logotipo en la cabecera */
+#logo-header {
+    float: left;
+    padding: 15px 20px; /* Espaciado alrededor del logotipo */
+    text-decoration: none;
+}
+
+#logo-header:hover {
+    color: #0e031f;
+}
+
+#logo-header .site-name {
+    display: block;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+#logo-header .site-desc {
+    display: block;
+    font-weight: 300;
+    font-size: 0.8em;
+    color: #999;
+}
+
+/* Estilos para la navegación horizontal */
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    line-height: 80px;
+}
+
+nav ul li {
+    display: inline-block; /* Alinea los elementos del menú horizontalmente */
+    margin-right: 20px; /* Espaciado entre elementos del menú */
+}
+
+nav ul li a {
+    display: block;
+    padding: 0 15px;
+    text-decoration: none;
+    color: #F5ECCE;
+    transition: color 0.3s ease; /* Transición al cambiar el color del texto */
+}
+
+nav ul li a:hover {
+    color: #ffffff; /* Color del texto al pasar el mouse */
+}
+
+/* Lista de opciones verticales */
+li.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%; /* Alinea el menú desplegable con el elemento padre */
+    background-color: #C7B3E4;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+li.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    color: #8EAEDF;
+    padding: 8px 12px;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.3s ease; /* Transición al cambiar el color del elemento */
+}
+
+.dropdown-content a:hover {
+    background-color: rgba(190, 208, 235, 0.427);
+}
+
+/* Estilos para el contenido principal */
+#main-content {
+    background: white;
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(130, 57, 57, 0.1);
+    padding: 20px; /* Espaciado interno para el contenido */
+}
+
+#main-content header,
+#main-content .content {
+    padding: 20px; /* Espaciado interno para encabezados y contenido */
+}
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif; /* Cambio de fuente a Montserrat */
+    color: #110202;
+    background: #ebe3e3;
+    font-size: 1em;
+    line-height: 1.5em;
+    padding-top: 80px; /* Relleno superior igual a la altura de la cabecera */
+}
+
+/* Estilos para encabezados */
+h1 {
+    font-size: 2.3em;
+    line-height: 1.3em;
+    margin: 15px 0;
+    text-align: center;
+    font-weight: 300;
+}
+
+/* ... (otros estilos) */
+
+/* Estilos para la navegación horizontal */
+nav ul li a {
+    display: block;
+    padding: 10px 15px; /* Ajuste del padding para botones */
+    text-decoration: none;
+    color: #F5ECCE;
+    transition: color 0.3s ease, background-color 0.3s ease; /* Transiciones para color y fondo */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+nav ul li a:hover {
+    color: #ffffff; /* Color del texto al pasar el mouse */
+    background-color: rgb(176, 212, 236); /* Cambio de fondo al pasar el mouse */
+}
+
+/* Lista de opciones verticales */
+.dropdown-content a {
+    color: rgb(234, 220, 220);
+    padding: 8px 12px;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.3s ease; /* Transición al cambiar el color del elemento */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+.dropdown-content a:hover {
+    background-color: rgba(190, 208, 235, 0.427);
+}
+
+/* ... (otros estilos) */
+
+/* Añadiendo la fuente Roboto */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Animación de transición para los enlaces */
+nav ul li a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #F5ECCE;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+    border: 1px solid transparent; /* Agregando borde para resaltar en hover */
+}
+
+/* Cambios al pasar el mouse */
+nav ul li a:hover {
+    color: #ffffff;
+    background-color: #b8d4e7;
+    border-color: #b2d4eb; /* Cambio de color del borde */
+    transform: translateY(-3px); /* Efecto de elevación al pasar el mouse */
+}
+
+/* Lista de opciones verticales */
+.dropdown-content a {
+    color: rgb(228, 188, 188);
+    padding: 8px 12px;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+    border: 1px solid transparent; /* Borde inicial transparente */
+}
+
+/* Cambios al pasar el mouse */
+.dropdown-content a:hover {
+    background-color: rgba(138, 160, 193, 0.427);
+    border-color: rgba(204, 218, 239, 0.427); /* Cambio de color del borde */
+    transform: translateY(-3px); /* Efecto de elevación al pasar el mouse */
+}
+
+/* Estilos para el cuadro de introducción */
+#introduction {
+    background-color: #fff; /* Color de fondo */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+    margin-bottom: 20px; /* Margen inferior */
+}
+
+/* Estilos para el título */
+#introduction h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+/* Estilos para el párrafo */
+#introduction p {
+    font-size: 1.1em;
+    line-height: 1.6em;
+}
